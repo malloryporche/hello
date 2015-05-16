@@ -9,3 +9,7 @@ autopublish
 insecure
 twbs:bootstrap
 underscore
+iron:router
+fourseven:scss
+ecwyne:polymer
+ecwyne:polymer-elements
