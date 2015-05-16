@@ -1,3 +1,4 @@
+
 if (Boards.find().count() === 0) {
 	Boards.insert({
     title: 'CODE - Projects',
@@ -13,11 +14,14 @@ if (Boards.find().count() === 0) {
 if (CardsList.find().count() === 0) {
 	CardsList.insert({
     title: 'Getting Started',
+    board: 'CODE - Projects',
   });
   CardsList.insert({
     title: 'Diving In',
+    board: 'CODE - Projects',
   }); 
   CardsList.insert({
     title: 'Mastering Hello',
+    board: 'CODE - Projects',
   });
 }
