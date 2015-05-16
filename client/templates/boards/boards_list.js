@@ -1,5 +1,5 @@
 Template.boardsList.helpers ({
-	boardItem: function() {
+	boards: function() {
 		return Boards.find();
-		};
+		}
 	});
