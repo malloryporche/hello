@@ -1,15 +1,17 @@
-<template name="lists">
+<template name="list">
+		
+
+			<div class="cards">
+
+
+		{{#each cards }}
 	
-		{{#each title}}
+				<a href="{{pathFor Card}}">{{card}}</a>
 
-			<div class="list">
-
-				<a href="{{pathFor Card}}">{{cardTitle}}</a>
-
-
+		{{/each }}
 
 			</div>
 
-		{{/each }}
+
 
 </template>

@@ -23,6 +23,13 @@
 	text-transform: uppercase;
 }
 
+.list {
+	display: inline-block;
+	width: 350px;
+	height: 100%;
+	border: 2px solid salmon;
+	background-color: white;
+}
 .none {
 	display: hidden !important;
 	padding: 7px;
