@@ -1,4 +1,4 @@
 Template.boardPage.helpers ({
-	lists: function() {
-		return Lists.find()}, 
+	boards: function() {
+		return Boards.find()}, 
 	});

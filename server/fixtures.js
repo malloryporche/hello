@@ -1,51 +1,78 @@
 
 if (Boards.find().count() === 0) {
-	Boards.insert({
-    title: 'CODE - Projects',
+  Boards.insert({
+    board: 'CODE - Projects',
+    card: 'Getting Started',
   });
   Boards.insert({
-    title: 'Codester',
-  }); 
+    board: 'CODE - Projects',
+    card: 'Diving In',
+  });
+	Boards.insert({
+    board: 'CODE - Projects',
+    card: 'Hello Vurld',
+  });
+
+   Boards.insert({
+    board: 'Codester',
+    card: 'Getting Started',
+  });
   Boards.insert({
-    title: 'Game Plan',
+    board: 'Codester',
+    card: 'Diving In',
+  });
+  Boards.insert({
+    board: 'Codester',
+    card: 'Hello Vurld',
+  });  Boards.insert({
+    board: 'Game Plan',
+    card: 'Getting Started',
+  });
+  Boards.insert({
+    board: 'Game Plan',
+    card: 'Diving In',
+  });
+  Boards.insert({
+    board: 'Game Plan',
+    card: 'Hello Vurld',
   });
 }
 
 if (Lists.find().count() === 0) {
   Lists.insert({
-    cards: 'Getting Started',
-    title: 'CODE - Projects',
+    board: 'Getting Started',
+    cardTitle: 'CODE - Projects',
   });
   Lists.insert({
-    cards: 'Diving In',
-    title: 'CODE - Projects',
+    board: 'Diving In',
+    cardTitle: 'CODE - Projects',
   }); 
   Lists.insert({
-    cards: 'Mastering Hello',
-    title: 'CODE - Projects',
+    board: 'Mastering Hello',
+    cardTitle: 'CODE - Projects',
   });
   Lists.insert({
-    cards: 'Getting Started',
-    title: 'Codester',
+    board: 'Getting Started',
+    cardTitle: 'Codester',
   });
   Lists.insert({
-    cards: 'Diving In',
-    title: 'Codester',
+    board: 'Diving In',
+    cardTitle: 'Codester',
   }); 
   Lists.insert({
-    cards: 'Mastering Hello',
-    title: 'Codester',
+    board: 'Mastering Hello',
+    cardTitle: 'Codester',
   });
 	Lists.insert({
-    cards: 'Getting Started',
-    title: 'Game Plan',
+    board: 'Getting Started',
+    cardTitle: 'Game Plan',
   });
   Lists.insert({
-    cards: 'Diving In',
-    title: 'Game Plan',
+    board: 'Diving In',
+    cardTitle: 'Game Plan',
   }); 
   Lists.insert({
-    cards: 'Mastering Hello',
-    title: 'Game Plan',
+    board: 'Mastering Hello',
+    cardTitle: 'Game Plan',
   });
 }
