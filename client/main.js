@@ -1,5 +1,12 @@
 
 Meteor.subscribe('boards');
 
-Meteor.subscribe('cardsList');
+Meteor.subscribe('lists');
+
+Meteor.subscribe('cards');
+
+Meteor.subscribe('checklists');
+
+Meteor.subscribe('comments');
+
 

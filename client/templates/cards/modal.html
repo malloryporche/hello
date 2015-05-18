@@ -1,0 +1,25 @@
+<template name="newModal">
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">{{cardTitle}}</h4>
+      </div>
+      <a><span class="glyphicon glyphicon-align-left"></span>Edit the description</a>
+      <a href="#"><span class="glyphicon glyphicon-list"></span>Add a checklist</a>
+      
+      <div class="modal-body">
+     	
+     	<input type="text" placeholder="Comments here">
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</template>
