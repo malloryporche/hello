@@ -8,12 +8,14 @@
 </button>
 <span class="none">Add new card</span>
 
+<div class="heading">
+	  {{> newModal}}
+</div>
 
-  {{> newModal}}
 
 	{{#each boards}}
 
-		{{> card}}
+		{{> list}}
 
 	{{/each }}
 

@@ -40,39 +40,39 @@ if (Boards.find().count() === 0) {
 
 if (Lists.find().count() === 0) {
   Lists.insert({
-    board: 'Getting Started',
-    cardTitle: 'CODE - Projects',
+    list: 'Getting Started',
+    board: 'CODE - Projects',
   });
   Lists.insert({
-    board: 'Diving In',
-    cardTitle: 'CODE - Projects',
+    list: 'Diving In',
+    board: 'CODE - Projects',
   }); 
   Lists.insert({
-    board: 'Mastering Hello',
-    cardTitle: 'CODE - Projects',
+    list: 'Mastering Hello',
+    board: 'CODE - Projects',
   });
   Lists.insert({
-    board: 'Getting Started',
-    cardTitle: 'Codester',
+    list: 'Getting Started',
+    board: 'Codester',
   });
   Lists.insert({
-    board: 'Diving In',
-    cardTitle: 'Codester',
+    list: 'Diving In',
+    board: 'Codester',
   }); 
   Lists.insert({
-    board: 'Mastering Hello',
-    cardTitle: 'Codester',
+    list: 'Mastering Hello',
+    board: 'Codester',
   });
 	Lists.insert({
-    board: 'Getting Started',
-    cardTitle: 'Game Plan',
+    list: 'Getting Started',
+    board: 'Game Plan',
   });
   Lists.insert({
-    board: 'Diving In',
-    cardTitle: 'Game Plan',
+    list: 'Diving In',
+    board: 'Game Plan',
   }); 
   Lists.insert({
-    board: 'Mastering Hello',
-    cardTitle: 'Game Plan',
+    list: 'Mastering Hello',
+    board: 'Game Plan',
   });
 }

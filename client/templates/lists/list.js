@@ -1,5 +1,10 @@
 Template.list.helpers ({
-	title: function() {
-		return this.title;
+	cardTitle: function() {
+		var title 
+
+		title = this.title
+
+		return title
+
 	}
-})
+});
